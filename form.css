@@ -1,0 +1,181 @@
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 80px;
+}
+footer{
+  text-align: center;
+  font-weight: 300;
+}
+nav {
+    text-align: center;
+}
+nav a{
+  text-decoration: none;
+  padding: 10px;
+  font-size: 40px;
+
+}
+li  {
+  display: inline;
+}
+a:link {
+  color: #ffffff;
+}
+a:visited {
+  color: orangered;
+}
+a:hover {
+  color: #00ffff;
+}
+body {
+    color:salmon;
+    font-weight: bold;
+    background-image: url(images/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: absolute;
+    
+  }
+div {
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+main {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px;
+}
+input {
+    width: 350px;
+    height: 50px;
+    font-size: x-large;
+    border-radius: 20px;
+    text-align: center;
+}
+textarea {
+    height: 100px;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 20px;
+}
+button {
+    width: 150px;
+    height: 50px;
+    font-size: x-large;
+    border-radius: 20px;
+    background-color: lime;   
+}
+@media only screen and (max-width: 1024px) {
+    h1 {
+      font-size: 2em;
+      padding-top: 0.25em;
+      padding-left: 1.5em;
+      width: 85%;
+      text-align: center;
+    }
+    li {
+      font-size: larger;
+    }
+    nav {
+      text-align: center;
+    }
+    nav a {
+      display: block;
+      font-size: 30px;
+    }
+    #wrapper {
+      min-width: 700px;
+      text-align: center;
+     }
+     body {
+      color: black;
+      font-size: 2em;
+      background-image: none;
+      background-color: goldenrod;
+    }
+    .flexbox-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+    .flexbox-item {
+      margin-bottom: 4em;
+      margin-left: 1em;
+      flex-wrap: wrap;
+    }
+    .flexbox-item1 {
+      margin-bottom: 4em;
+      margin-left: 1em;
+      height: 350px;
+      flex-wrap: wrap;
+    }
+    .action{
+      font-size: 1em;
+      margin: 20px;
+    }
+    footer {
+      text-align: center;
+      margin-left: 30px;
+      font-size: large;
+    }
+  }
+  @media only screen and (max-width: 600px)
+  {
+  
+    h1 {
+      font-size: 2em;
+      padding-top: 0.25em;
+      padding-left: 1.5em;
+      width: 85%;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+    }
+    nav a {
+      display: block;
+    }
+    #wrapper {
+     min-width: 300px;
+      text-align: center;
+  
+    }
+    body {
+      color: black;
+      font-size: 1em;
+      background-image: none;
+      background-color: goldenrod;
+    }
+    .flexbox-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .flexbox-item {
+      margin-bottom: 4em;
+      margin-left: 3.5em;
+  
+    }
+    .flexbox-item1 {
+      margin-bottom: 2em;
+      margin-left: 3em;
+      height: 350px;
+      
+  
+    }
+    #mobile {
+     text-align: center;
+    }
+    .action{
+      font-size: 2em;
+      margin: 40px;
+    }
+    footer {
+      text-align: center;
+      margin-left: 30px;
+      font-size: 300;
+    }
+  }

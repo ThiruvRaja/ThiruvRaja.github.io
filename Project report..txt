@@ -1,0 +1,21 @@
+Name: Thiruvarangan Raja
+CLass: IT 202 Web Design
+Section B
+ID: 145021
+
+Final Project.
+    Design choices:I decided to use a simple background image, so that it will overshadow the main content, yet it will attract the users.
+    I used flexbox on pages that required images(Index, Menu), because I wanted to make a tile-like layout which will be more attractive to the users. 
+    The webpages have consistent color schemes, and fonts, span tag is used to make some text italic to indicate it have special purpose. Javascript is used to make the menu interactive
+    where the user can read the description of a specific food when they move the mouse over the image. There are also interactive buttons to guide users to other pages and display special message.
+    The reason background images was not present in non-desktop version(screen size less than 1024px), the image I used cannot be rendered properly in those version so I removed it.
+    The accessibility features include: 
+        1. All the images have alternate text that gives a brief description of the image.
+        2. The links have meaningful text to guide the users.
+        3. Label tags have been used in forms.
+        4. A general Font-family included so every website can render the text properly.
+        5. Relatively large sized fonts are used so that everyone can read properly.
+        6. The links and clickable buttons can be accessed by keyboard(tab key and enter key.)
+    
+
+

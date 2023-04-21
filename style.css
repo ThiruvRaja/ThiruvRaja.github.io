@@ -162,7 +162,7 @@ button {
     display: block;
   }
   #wrapper {
-   min-width: 300px;
+   min-width: 200px;
     text-align: center;
 
   }
@@ -179,7 +179,7 @@ button {
   }
   .flexbox-item {
     margin-bottom: 4em;
-    margin-left: 3.5em;
+    margin-left: 2em;
 
   }
   .flexbox-item1 {
@@ -204,7 +204,7 @@ button {
     font-size: 300;
   }
   #wrapper2 {
-    min-width: 100px;
-    max-width: 300px;
+    min-width: 50px;
+    max-width: 150px;
   }
 }
